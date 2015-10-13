@@ -1,0 +1,202 @@
+body {
+  background-color: #F5F5F1;
+}
+
+.containerhead {
+
+ height: 150px;
+
+  h1 {
+ color: #F56300;
+ margin-left: 150px;
+ display: inline-block; 
+}
+
+.searchbar {
+ height: 30px;
+ width: 255px;
+ padding-left: 20px; 
+ margin-left: 30px;
+}
+
+.divblock {
+ display: inline-block; 
+}
+
+.searchbutton { 
+ background-color: #40A7C7;
+ color: white;
+ padding-right: 10px;
+ padding-left: 5px;
+ height: 35px;
+ margin-left: -5px;
+}
+
+
+.searchbutton:hover {
+ background-color: white;
+}
+
+.rightHeader {
+ display: inline-block;
+ margin-left: 150px;
+ color: #40B0DC;
+}
+
+.rightHeader li {
+ display: inline-block;
+ margin-left: 20px;
+ height: 42px;
+ cursor: pointer;
+ &:hover {
+  text-decoration: underline;
+ }
+}
+
+.sell {
+ padding-left: 20px;
+ margin-left: 20px;
+}
+button {
+ -webkit-appearance: button;
+ cursor: pointer;
+ background-color: white;
+ padding: 6px;
+}
+
+.cartButton {
+ padding-left: 20px;
+ color: gray;
+ cursor: pointer;
+ &:hover {
+  text-decoration: underline;
+ }
+}
+
+.departments {
+ list-style: none;
+ display: inline-block;
+ color: gray;
+ padding-left: 142px;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+
+.departments li {
+ display: inline-block;
+ padding-left: 10px;
+ &:hover {
+  text-decoration: underline;
+ }
+}
+}
+
+.depList{
+  width: 100%;
+  border-top: 1px solid gray;
+}
+.sideBar {
+  list-style: none;
+  width: 200px;
+  border: 1px solid gray;
+  color: #1E92C8;
+  background-color: white;
+  padding: 21px;
+  height: 350px;
+}
+.sideBar li {
+  padding: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+} 
+
+.allCategories {
+  color: #555555;
+  padding-bottom: 8px;
+}
+.allCategories li {
+  font-size: 16px;
+}
+
+.showResultsfor {
+  display: inline-block;
+  padding-left: 152px;
+  padding-top: 25px;
+  color: #555555;
+}
+.refineyoursearch {
+margin-left: 150px;
+}
+
+.sideBar2{
+  display: inline-block;
+  list-style: none;
+  border: 1px solid gray;
+  height: 500px;
+  width: 220px;
+  padding-left: 23px;
+  margin-left: 152px;
+  margin-top: 25px;
+  color: #40B0DC;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  }
+.sideBar2 li {
+   &:hover {
+     // text-decoration: underline;
+     padding-left: 20px;
+      }
+  }    
+.itemType {
+  color: #555555;
+}
+.allItems {
+  padding-left: 20px;
+  font-size: 13px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.handMade {
+  font-size: 13px;
+  &:hover {
+    text-decoration: underline;
+  }
+  padding-left: 20px;
+}
+.vintage {
+  font-size: 13px;
+  &:hover {
+    text-decoration: underline;
+  }
+  padding-left: 20px;
+}
+.radio li {
+
+}
+.price {
+  padding-top: 40px;
+}
+.priceBoxlow {
+    width: 50px;
+    height: 30px;
+}
+.priceBoxhigh {
+    width: 50px;
+    height: 30px;
+    margin-left: 25px;
+}
+.to {
+    margin-left: 65px;
+    display: inline-block;
+}
+.submitbtn {
+    width: 50px;
+    height: 50px;
+    margin-left: 72px;
+}

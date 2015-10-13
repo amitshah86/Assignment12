@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etsy Project</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<!-- Left Header -->
+  <header class="containerhead">
+    <h1>Etsy</h1>
+    <span><input class="searchbar"></input></span>
+    <button class ="searchbutton">Search</button>
+    
+<!-- Right Header -->
+    <ul class="rightHeader">
+      <li class="sell">Sell on Etsy</li>
+      <li class="reg">Register</li>
+      <li class="btn"><button>Sign in</button></li>
+    </ul>
+   
+      <span class="cartButton">Cart</span>
+<div class="depList">
+    <ul class="departments">
+      <li>Clothing &amp; Accessories</li>
+      <li>Jewelry</li>
+      <li>Craft Supplies &amp; Tools</li>
+      <li>Weddings</li>
+      <li>Entertainment</li>
+      <li>Home &amp; Living</li>
+      <li>Kids &amp; Baby</li>
+      <li>Vintage</li>
+    </ul>
+</div>
+</header>
+
+<div class="showResultsfor">Show results for:
+  <ul class="sideBar">
+     <li class="allCategories">All Categories</li>
+     <li>Clothing</li>
+     <li>Art &amp; Collectibles</li>
+     <li>Accessories</li>
+     <li>Home &amp; Living</li>
+     <li>Jewelry</li>
+     <li>Craft Supplies &amp; Tools</li>
+     <li>Toys &amp; Games</li>
+     <li>Bath &amp; Beauty</li>
+     <li>Paper &amp; Party Supplies</li>
+     <li>Weddings</li>
+     <li>Bags &amp; Purses</li>
+     <li>Pet Supplies</li>
+     <li>Shoes</li>
+     <li>Electronics &amp; Accessories</li>
+     <li>Books, Movies &amp; Music</li>
+     </ul>
+  </div>
+
+  <div class="refineyoursearch">Refine your search</div>
+    <ul class="sideBar2">
+      <li class="itemType">Item Type</li>
+      <div class="radio">
+     <input type="radio"><li class="allItems">All Items</li>
+     <input type="radio"><li class="handMade">Handmade</li>
+      <input type="radio"><li class="vintage">Vintage</li>
+      </div> 
+    <div class="price">Price</div>
+    <span><input placeholder="Low" class="priceBoxlow"></input></span>
+    <span><input placeholder="High" class="priceBoxhigh"></input></span>
+    <div class="to">to</div>
+    <span><button class="submitbtn"></button></span>
+    </ul>
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+
+<div class="containerBody">
+  <script type="text/template" id="itemTemplate">
+
+<div class="picture">
+<ul class="textData">
+   <li class="itemTitle"><%=title=></li>
+   <li class="companyName"><%=/li\>
+   <li class="priceValue"><%=price=></li>
+   <li class="currency">=>%</li>
+
+
+
+<li class=‘xxx’> <%= ……=></li>
+
+
+
+</ul>
+</div>
+</script>
+</div>
+
+</body>
+</html>
